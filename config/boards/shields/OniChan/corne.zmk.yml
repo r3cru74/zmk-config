@@ -1,6 +1,6 @@
 file_format: "1"
-id: OniChan
-name: OniChan
+id: corne
+name: Corne
 type: shield
 url: https://github.com/foostan/crkbd/
 requires: [pro_micro]
@@ -10,5 +10,5 @@ features:
   - display
   - underglow
 siblings:
-  - OniChan_left
-  - OniChan_right
+  - corne_left
+  - corne_right
