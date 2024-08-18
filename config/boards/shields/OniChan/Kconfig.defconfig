@@ -1,0 +1,16 @@
+if SHIELD_OniChan_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "OniChan"
+
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+
+endif
+
+if SHIELD_OniChan_LEFT || SHIELD_OniChan_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif
