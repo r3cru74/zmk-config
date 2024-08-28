@@ -7,11 +7,11 @@
 #include "onichan.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <0>;
 };
 
 &five_column_transform {
-    col-offset = <6>;
+    col-offset = <0>;
 };
 
 
