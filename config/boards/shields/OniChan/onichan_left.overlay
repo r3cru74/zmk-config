@@ -6,6 +6,15 @@
 
 #include "onichan.dtsi"
 
+&default_transform {
+    col-offset = <0>;
+};
+
+&five_column_transform {
+    col-offset = <0>;
+};
+
+
 &kscan0 {
     col-gpios
         = <&pro_micro 20 GPIO_ACTIVE_HIGH>
