@@ -22,6 +22,7 @@
         compatible = "zmk,keymap";
 
         Default {
+            display-name = "Base";
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O       &kp P      &kp BACKSPACE
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K          &kp L       &kp SEMI   &kp SINGLE_QUOTE
@@ -31,6 +32,7 @@
         };
 
         Lower {
+            display-name = "Lower";
             bindings = <
 &kp TAB     &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4    &kp NUMBER_5            &kp NUMBER_6           &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0  &kp BACKSPACE
 &kp LSHIFT  &kp EQUAL     &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp AMPERSAND  &kp PIPE      &kp QUESTION
@@ -40,6 +42,7 @@
         };
 
         Raise {
+            display-name = "Raised";
             bindings = <
 &kp TAB    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans       &trans     &trans  &trans         &trans  &trans  &kp BACKSPACE
 &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans       &trans     &trans  &trans         &trans  &trans  &kp DELETE
@@ -49,6 +52,7 @@
         };
 
         ModLayer {
+            display-name = "ModLayers";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
 &kp K_MUTE  &kp K_PLAY_PAUSE  &kp K_PREVIOUS  &kp K_FORWARD  &kp C_VOL_DN  &kp C_VOL_UP    &trans  &trans  &trans  &trans  &trans  &trans
