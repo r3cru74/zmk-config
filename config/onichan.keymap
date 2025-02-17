@@ -145,25 +145,6 @@
             >;
         };
 
-        pt_symbol {
-            display-name = "PT_symbols";
-            bindings = <
-&kp TAB     &kp PT_1  &kp PT_2      &kp PT_3      &kp PT_4    &kp PT_5                                &kp PT_6           &kp PT_7     &kp PT_8       &kp PT_9   &kp PT_0  &kp BACKSPACE
-&kp LSHIFT  &kp PT_EQL     &kp PT_SINGLE_QUOTE  &kp PT_LCBR  &kp PT_LBRC  &kp PT_LPRN                 &kp PT_RPRN  &kp PT_RBRC  &kp PT_RCBR  &kp PT_AMPR  &kp PT_PIPE      &kp PT_QUES
-&kp LCTRL   &kp PT_MINUS   &kp PT_CIRC         &kp PT_TILDE  &kp PT_BSLS   &kp PT_LESS_THAN           &kp PT_GREATER_THAN       &kp PT_SLSH        &kp PT_PERC        &kp PT_ASTR   &kp PT_PLUS      &kp PT_EXLM
-                                            &kp LGUI          &to PT_func_move          &kp SPACE               &kp ENTER              &to PT_base          &kp RIGHT_ALT
-            >;
-        };
-
-        pt_nav {
-            display-name = "PT_func_move"; 
-            bindings = <
-&kp TAB    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans       &kp F1   &kp F2   &kp F3  &kp F4  &kp F5  &kp BACKSPACE
-&kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans       &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp DELETE
-&kp LCTRL  &kp Z           &kp X           &kp C         &kp V            &trans       &kp F11  &kp F12  &trans  &trans  &trans  &kp INSERT
-                                           &kp LGUI      &to Blue_layers          &kp SPACE    &kp ENTER  &to PT_symbols  &kp RIGHT_ALT
-            >;
-        };
 
 
     };
