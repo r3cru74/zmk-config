@@ -83,7 +83,7 @@
 #define PT_GRV  LS(PT_ACUT) // ` (dead)
 #define PT_FORD LS(PT_MORD) // ª
 #define PT_CIRC LS(PT_TILDE) // ^ (dead)
-#define PT_GREATER_THAN S(PT_LABK) // >
+#define PT_GREATER_THAN LS(PT_LABK) // >
 #define PT_SCLN LS(PT_COMMA) // ;
 #define PT_COLN LS(PT_DOT)  // :
 #define PT_UNDS LS(PT_MINUS) // _
