@@ -67,34 +67,34 @@
 #define PT_DOT  PERIOD  // .
 #define PT_MINUS SLASH // -
 #define PT_PIPE BACKSLASH // |
-#define PT_EXLM LS(PT_1)    // !
-#define PT_DQUO LS(PT_2)    // "
-#define PT_HASH LS(PT_3)    // #
-#define PT_DLR  LS(PT_4)    // $
-#define PT_PERC LS(PT_5)    // %
-#define PT_AMPR LS(PT_6)    // &
-#define PT_SLSH LS(PT_7)    // /
-#define PT_LPRN LS(PT_8)    // (
-#define PT_RPRN LS(PT_9)    // )
-#define PT_EQL  LS(PT_0)    // =
-#define PT_QUES LS(PT_SINGLE_QUOTE) // ?
-#define PT_RDAQ LS(PT_LDAQ) // »
-#define PT_ASTR LS(PT_PLUS) // *
-#define PT_GRV  LS(PT_ACUT) // ` (dead)
-#define PT_FORD LS(PT_MORD) // ª
-#define PT_CIRC LS(PT_TILDE) // ^ (dead)
-#define PT_GREATER_THAN LS(PT_LABK) // >
-#define PT_SCLN LS(PT_COMMA) // ;
-#define PT_COLN LS(PT_DOT)  // :
-#define PT_UNDS LS(PT_MINUS) // _
-#define PT_AT   RA(PT_2)    // @
-#define PT_PND  RA(PT_3)    // £
-#define PT_SECT RA(PT_4)    // §
-#define PT_LCBR RA(PT_7)    // {
-#define PT_LBRC RA(PT_8)    // [
-#define PT_RBRC RA(PT_9)    // ]
-#define PT_RCBR RA(PT_0)    // }
-#define PT_DIAE RA(PT_PLUS) // ¨ (dead)
+#define PT_EXLM LS(NUMBER_1)    // !
+#define PT_DQUO LS(NUMBER_2)    // "
+#define PT_HASH LS(NUMBER_3)    // #
+#define PT_DLR  LS(NUMBER_4)    // $
+#define PT_PERC LS(NUMBER_5)    // %
+#define PT_AMPR LS(NUMBER_6)    // &
+#define PT_SLSH LS(NUMBER_7)    // /
+#define PT_LPRN LS(NUMBER_8)    // (
+#define PT_RPRN LS(NUMBER_9)    // )
+#define PT_EQL  LS(NUMBER_0)    // =
+#define PT_QUES LS(MINUS) // ?
+#define PT_RDAQ LS(EQUAL) // »
+#define PT_ASTR LS(LEFT_BRACKET) // *
+#define PT_GRV  LS(RIGHT_BRACKET) // ` (dead)
+#define PT_FORD LS(SINGLE_QUOTE) // ª
+#define PT_CIRC LS(NUHS) // ^ (dead)
+#define PT_GREATER_THAN LS(NUBS) // >
+#define PT_SCLN LS(COMMA) // ;
+#define PT_COLN LS(PERIOD)  // :
+#define PT_UNDS LS(SLASH) // _
+#define PT_AT   RA(NUMBER_2)    // @
+#define PT_PND  RA(NUMBER_3)    // £
+#define PT_SECT RA(NUMBER_4)    // §
+#define PT_LCBR RA(NUMBER_7)    // {
+#define PT_LBRC RA(NUMBER_8)    // [
+#define PT_RBRC RA(NUMBER_9)    // ]
+#define PT_RCBR RA(NUMBER_0)    // }
+#define PT_DIAE RA(LEFT_BRACKET) // ¨ (dead)
 #define PT_EURO RA(PT_E)    // €
 
 / {
