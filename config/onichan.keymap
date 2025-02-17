@@ -77,7 +77,7 @@
 #define PT_LPRN LS(PT_8)    // (
 #define PT_RPRN LS(PT_9)    // )
 #define PT_EQL  LS(PT_0)    // =
-#define PT_QUES LS(PT_QUOT) // ?
+#define PT_QUES LS(PT_SINGLE_QUOTE) // ?
 #define PT_RDAQ LS(PT_LDAQ) // »
 #define PT_ASTR LS(PT_PLUS) // *
 #define PT_GRV  LS(PT_ACUT) // ` (dead)
@@ -145,7 +145,15 @@
             >;
         };
 
-
+        pt_symbol {
+            display-name = "PT_symbols";
+            bindings = <
+&kp TAB     &kp PT_1  &kp PT_2      &kp PT_3      &kp PT_4    &kp PT_5                                &kp PT_6           &kp PT_7     &kp PT_8       &kp PT_9   &kp PT_0  &kp BACKSPACE
+&kp LSHIFT  &kp PT_EQL     &kp PT_SINGLE_QUOTE  &kp PT_LCBR  &kp PT_LBRC  &kp PT_LPRN                 &kp PT_RPRN  &kp PT_RBRC  &kp PT_RCBR  &kp PT_AMPR  &kp PT_PIPE      &kp PT_QUES
+&kp LCTRL   &kp PT_MINUS   &kp PT_CIRC         &kp PT_TILDE  &kp PT_BSLS   &kp PT_LESS_THAN           &kp PT_GREATER_THAN       &kp PT_SLSH        &kp PT_PERC        &kp PT_ASTR   &kp PT_PLUS      &kp PT_EXLM
+                                            &kp LGUI          &to PT_func_move          &kp SPACE               &kp ENTER              &to PT_base          &kp RIGHT_ALT
+            >;
+        };
 
   pt_nav {
             display-name = "PT_func_move"; 
