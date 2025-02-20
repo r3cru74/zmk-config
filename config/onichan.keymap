@@ -66,7 +66,7 @@
 #define PT_COMMA COMMA // ,
 #define PT_DOT  PERIOD  // .
 #define PT_MINUS SLASH // -
-#define PT_PIPE LS(BACKSLASH) // |
+#define PT_PIPE LS(GRAVE) // |
 #define PT_EXLM LS(NUMBER_1)    // !
 #define PT_DQUO LS(NUMBER_2)    // "
 #define PT_HASH LS(NUMBER_3)    // #
