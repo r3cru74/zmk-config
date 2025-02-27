@@ -148,7 +148,7 @@
 &kp TAB         &kp PT_Q    &kp PT_W    &kp PT_E      &kp PT_R          &kp PT_T        &kp PT_Y      &kp PT_U          &kp PT_I          &kp PT_O       &kp PT_P     &kp BACKSPACE
 &kp LEFT_SHIFT  &kp PT_A    &kp PT_S    &kp PT_D      &kp PT_F          &kp PT_G        &kp PT_H      &kp PT_J          &kp PT_K          &kp PT_L       &kp PT_CED   &kp PT_SINGLE_QUOTE
 &kp LCTRL       &kp PT_Z    &kp PT_X    &kp PT_C      &kp PT_V          &kp PT_B        &kp PT_N      &kp PT_M          &kp PT_COMMA      &kp PT_DOT     &kp PT_SLSH  &kp ESC
-                                        &kp LEFT_GUI  &to PT_symbols    &kp SPACE       &kp ENTER     &to EN_func_move  &kp RIGHT_ALT
+                                        &kp LEFT_GUI  &to PT_symbols    &kp SPACE       &kp ENTER     &to PT_func_move  &kp RIGHT_ALT
             >;
         };
 
