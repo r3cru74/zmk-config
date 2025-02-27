@@ -133,7 +133,7 @@
         en_nav {
             display-name = "EN_func_move"; 
             bindings = <
-&kp F1    &kp F2           &kp F3          &kp F4        &kp F5             &F6             &kp F7              &kp F8                  &kp F9              &kp F10          &kp F11      &kp F12
+&kp F1     &kp F2          &kp F3          &kp F4        &kp F5             &kp F6          &kp F7              &kp F8                  &kp F9              &kp F10          &kp F11      &kp F12
 &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &trans          &kp LEFT_ARROW      &kp DOWN_ARROW          &kp UP_ARROW        &kp RIGHT_ARROW  &trans       &kp DELETE
 &kp LCTRL  &kp Z           &kp X           &kp C         &kp V              &trans          &trans              &trans                  &trans              &trans           &trans       &kp INSERT
                                            &kp LGUI      &to EN_base        &kp SPACE       &kp ENTER           &to EN_symbols          &kp RIGHT_ALT
@@ -165,7 +165,7 @@
   pt_nav {
             display-name = "PT_func_move"; 
             bindings = <
-&kp F1    &kp F2           &kp F3          &kp F4        &kp F5             &F6             &kp F7              &kp F8                  &kp F9              &kp F10          &kp F11      &kp F12
+&kp F1    &kp F2           &kp F3          &kp F4        &kp F5             &kp F6          &kp F7              &kp F8                  &kp F9              &kp F10          &kp F11      &kp F12
 &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &trans          &kp LEFT_ARROW      &kp DOWN_ARROW          &kp UP_ARROW        &kp RIGHT_ARROW  &trans       &kp DELETE
 &kp LCTRL  &kp Z           &kp X           &kp C         &kp V              &trans          &trans              &trans                  &trans              &trans           &trans       &kp INSERT
                                            &kp LGUI      &to PT_base    &kp SPACE           &kp ENTER   &to PT_symbols  &kp RIGHT_ALT
