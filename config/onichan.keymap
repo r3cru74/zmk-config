@@ -100,6 +100,11 @@
 / {
     combos {
         compatible = "zmk,combos";
+
+        settinglayer {
+            bindings = <&to Blue_layers>;
+            key-positions = <37 40>;
+        };
     };
 
     keymap {
@@ -111,7 +116,7 @@
 &kp TAB             &kp Q       &kp W       &kp E         &kp R             &kp T           &kp Y           &kp U               &kp I          &kp O       &kp P      &kp BACKSPACE
 &kp LEFT_SHIFT      &kp A       &kp S       &kp D         &kp F             &kp G           &kp H           &kp J               &kp K          &kp L       &kp SEMI   &kp SINGLE_QUOTE
 &kp LCTRL           &kp Z       &kp X       &kp C         &kp V             &kp B           &kp N           &kp M               &kp COMMA      &kp PERIOD  &kp SLASH  &kp ESC
-                                            &kp LEFT_GUI  &to EN_symbols    &kp SPACE       &kp ENTER       &to Blue_layers     &kp RIGHT_ALT
+                                            &kp LEFT_GUI  &to EN_symbols    &kp SPACE       &kp ENTER       &to EN_func_move     &kp RIGHT_ALT
             >;
         };
 
@@ -121,7 +126,7 @@
 &kp TAB     &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5            &kp NUMBER_6           &kp NUMBER_7     &kp NUMBER_8        &kp NUMBER_9        &kp NUMBER_0  &kp BACKSPACE
 &kp LSHIFT  &kp MINUS     &kp LESS_THAN     &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET   &kp GREATER_THAN    &kp PLUS      &kp SINGLE_QUOTE
 &kp LCTRL   &kp CARET     &kp PERCENT       &kp EXCLAMATION   &kp BACKSLASH     &kp AMPERSAND           &kp PIPE               &kp SLASH        &kp EQUAL           &kp ASTERISK        &kp TILDE     &kp QUESTION
-                                            &kp LGUI          &to EN_func_move  &kp SPACE               &kp ENTER              &to EN_base      &kp RIGHT_ALT
+                                            &kp LGUI          &to EN_base  &kp SPACE               &kp ENTER              &to EN_func_move      &kp RIGHT_ALT
             >;
         };
 
@@ -131,7 +136,7 @@
 &kp TAB    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END            &trans          &kp F1      &kp F2          &kp F3          &kp F4  &kp F5  &kp BACKSPACE
 &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &trans          &kp F6      &kp F7          &kp F8          &kp F9  &kp F10  &kp DELETE
 &kp LCTRL  &kp Z           &kp X           &kp C         &kp V              &trans          &kp F11     &kp F12         &trans          &trans  &trans  &kp INSERT
-                                           &kp LGUI      &to PT_base        &kp SPACE       &kp ENTER   &to EN_symbols  &kp RIGHT_ALT
+                                           &kp LGUI      &to EN_base        &kp SPACE       &kp ENTER   &to EN_symbols  &kp RIGHT_ALT
             >;
         };
 
@@ -151,7 +156,7 @@
 &kp TAB     &kp PT_1        &kp PT_2            &kp PT_3         &kp PT_4           &kp PT_5              &kp PT_6      &kp PT_7        &kp PT_8        &kp PT_9                &kp PT_0         &kp BACKSPACE
 &kp LSHIFT  &kp PT_MINUS    &kp PT_LESS_THAN    &kp PT_LCBR      &kp PT_LBRC        &kp PT_LPRN           &kp PT_RPRN   &kp PT_RBRC     &kp PT_RCBR     &kp PT_GREATER_THAN     &kp PT_PLUS      &kp PT_SINGLE_QUOTE
 &kp LCTRL   &kp PT_CIRC     &kp PT_PERC         &kp PT_EXLM      &kp PT_BSLS        &kp PT_AMPR           &kp PT_PIPE   &kp PT_SLSH     &kp PT_EQL      &kp PT_ASTR             &kp PT_TILDE     &kp PT_QUES
-                                                &kp LGUI         &to PT_func_move   &kp SPACE             &kp ENTER     &to PT_base     &kp RIGHT_ALT
+                                                &kp LGUI         &to PT_base   &kp SPACE             &kp ENTER     &to PT_func_move     &kp RIGHT_ALT
             >;
         };
 
@@ -161,7 +166,7 @@
 &kp TAB    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END            &trans              &kp F1      &kp F2          &kp F3          &kp F4      &kp F5      &kp BACKSPACE
 &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &trans              &kp F6      &kp F7          &kp F8          &kp F9      &kp F10     &kp DELETE
 &kp LCTRL  &kp Z           &kp X           &kp C         &kp V              &trans              &kp F11     &kp F12         &trans          &trans      &trans      &kp INSERT
-                                           &kp LGUI      &to Blue_layers    &kp SPACE           &kp ENTER   &to PT_symbols  &kp RIGHT_ALT
+                                           &kp LGUI      &to PT_base    &kp SPACE           &kp ENTER   &to PT_symbols  &kp RIGHT_ALT
             >;
         };
 
@@ -170,8 +175,8 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4         &kp F1      &kp F2              &kp F3          &kp F4  &kp F5   &kp BACKSPACE
 &kp K_MUTE  &kp K_PLAY_PAUSE  &kp K_PREVIOUS  &kp K_FORWARD  &kp C_VOL_DN  &kp C_VOL_UP         &kp F6      &kp F7              &kp F8          &kp F9  &kp F10  &kp DELETE
-&trans      &trans            &trans          &trans         &trans        &trans               &kp F11     &kp F12             &trans          &trans  &trans   &kp ESC
-                                              &kp LGUI       &to EN_base   &kp SPACE            &kp ENTER   &to PT_func_move    &kp RIGHT_ALT
+&trans      &trans            &trans          &trans         &to EN_base   &to PT_base          &kp F11     &kp F12             &trans          &trans  &trans   &kp ESC
+                                              &kp LGUI       &to EN_base   &kp SPACE            &kp ENTER   &to PT_base         &kp RIGHT_ALT
             >;
         };
 
