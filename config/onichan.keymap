@@ -131,7 +131,7 @@
             bindings = <
 &kp TAB     &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5            &kp NUMBER_6           &kp NUMBER_7         &kp NUMBER_8        &kp NUMBER_9        &kp NUMBER_0  &kp BACKSPACE
 &kp LSHIFT  &kp MINUS     &kp LESS_THAN     &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE      &kp RIGHT_BRACKET   &kp GREATER_THAN    &kp PLUS      &kp GRAVE
-&kp LCTRL   &kp DOLLAR     &kp PERCENT       &kp EXCLAMATION   &kp BACKSLASH     &kp AMPERSAND           &kp PIPE               &kp SLASH            &kp EQUAL           &kp ASTERISK        &kp TILDE     &kp QUESTION
+&kp LCTRL   &kp DOLLAR    &kp QUESTION      &kp PERCENT       &kp BACKSLASH     &kp AMPERSAND           &kp PIPE               &kp SLASH            &kp ASTERISK        &kp EXCLAMATION     &kp EQUAL     &kp TILDE     
                                             &kp LGUI          &to EN_base       &kp SPACE               &kp ENTER              &to EN_func_move     &kp RIGHT_ALT
             >;
         };
@@ -163,8 +163,8 @@
             bindings = <
 &kp TAB     &kp PT_1        &kp PT_2            &kp PT_3         &kp PT_4           &kp PT_5              &kp PT_6      &kp PT_7        &kp PT_8        &kp PT_9                &kp PT_0         &kp BACKSPACE
 &kp LSHIFT  &kp PT_MINUS    &kp PT_LESS_THAN    &kp PT_LCBR      &kp PT_LBRC        &kp PT_LPRN           &kp PT_RPRN   &kp PT_RBRC     &kp PT_RCBR     &kp PT_GREATER_THAN     &kp PT_PLUS      &kp PT_GRV
-&kp LCTRL   &kp PT_DLR     &kp PT_PERC         &kp PT_EXLM      &kp PT_BSLS        &kp PT_AMPR           &kp PT_PIPE   &kp PT_SLSH     &kp PT_EQL      &kp PT_ASTR             &kp PT_TILDE     &kp PT_QUES
-                                                &kp LGUI         &to PT_base   &kp SPACE             &kp ENTER     &to PT_func_move     &kp RIGHT_ALT
+&kp LCTRL   &kp PT_DLR      &kp PT_QUES         &kp PT_PERC      &kp PT_BSLS        &kp PT_AMPR           &kp PT_PIPE   &kp PT_SLSH     &kp PT_ASTR     &kp PT_EXLM             &kp PT_EQL       &kp PT_TILDE     
+                                                &kp LGUI         &to PT_base        &kp SPACE             &kp ENTER     &to PT_func_move     &kp RIGHT_ALT
             >;
         };
 
