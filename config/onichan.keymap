@@ -139,10 +139,10 @@
         en_nav {
             display-name = "EN_func_move"; 
             bindings = <
-&kp F1     &kp F2          &kp F3          &kp F4            &kp F5             &kp F6                       &kp F7              &kp F8                  &kp F9              &kp F10          &kp F11      &kp F12
-&kp LSHFT  &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_UP       &mmv MOVE_RIGHT              &kp LEFT_ARROW      &kp DOWN_ARROW          &kp UP_ARROW        &kp RIGHT_ARROW  &trans       &kp DELETE
-&kp LCTRL  &trans          &trans          &trans            &mkp LCLK          &mkp RCLK                    &trans              &trans                  &trans              &trans           &trans       &kp INSERT
-                                           &kp LGUI          &to EN_base        &kp SPACE                    &kp ENTER           &to EN_symbols          &kp RIGHT_ALT
+&kp F1      &kp F2      &kp F3           &kp F4           &kp F5       &kp F6             &kp F7      &kp F8           &kp F9            &kp F10        &kp F11          &kp F12
+&kp DELETE  &mkp LCLK   &msc SCRL_DOWN   &msc SCRL_UP     &mkp RCLK    &trans             &trans      &mmv MOVE_LEFT   &mmv MOVE_DOWN    &mmv MOVE_UP   &mmv MOVE_RIGHT  &kp BACKSPACE
+&kp LCTRL   &trans      &trans           &trans           &trans       &trans             &kp INSERT  &kp LEFT_ARROW   &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp LSHFT
+                                         &kp LGUI         &to EN_base  &kp SPACE          &kp ENTER   &to EN_symbols   &kp RIGHT_ALT
             >;
         };
 
@@ -171,10 +171,10 @@
   pt_nav {
             display-name = "PT_func_move"; 
             bindings = <
-&kp F1     &kp F2          &kp F3          &kp F4            &kp F5             &kp F6                       &kp F7              &kp F8                  &kp F9              &kp F10          &kp F11      &kp F12
-&kp LSHFT  &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_UP       &mmv MOVE_RIGHT              &kp LEFT_ARROW      &kp DOWN_ARROW          &kp UP_ARROW        &kp RIGHT_ARROW  &trans       &kp DELETE
-&kp LCTRL  &trans          &trans          &trans            &mkp LCLK          &mkp RCLK                    &trans              &trans                  &trans              &trans           &trans       &kp INSERT
-                                           &kp LGUI      &to PT_base    &kp SPACE           &kp ENTER   &to PT_symbols  &kp RIGHT_ALT
+&kp F1      &kp F2      &kp F3           &kp F4           &kp F5       &kp F6             &kp F7      &kp F8           &kp F9            &kp F10        &kp F11          &kp F12
+&kp DELETE  &mkp LCLK   &msc SCRL_DOWN   &msc SCRL_UP     &mkp RCLK    &trans             &trans      &mmv MOVE_LEFT   &mmv MOVE_DOWN    &mmv MOVE_UP   &mmv MOVE_RIGHT  &kp BACKSPACE
+&kp LCTRL   &trans      &trans           &trans           &trans       &trans             &kp INSERT  &kp LEFT_ARROW   &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp LSHFT
+                                         &kp LGUI         &to EN_base  &kp SPACE          &kp ENTER   &to EN_symbols   &kp RIGHT_ALT
             >;
         };
 
